@@ -1,5 +1,3 @@
-require('./bootstrap');
-
 //load all dependencies
 import axios from 'axios'
 import Datepicker from 'vuejs-datepicker'
