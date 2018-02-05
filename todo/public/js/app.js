@@ -13316,7 +13316,7 @@ var render = function() {
           "div",
           { staticClass: "box" },
           [
-            _c("h2", { staticClass: "title" }, [_vm._v("My tasks")]),
+            _c("h2", { staticClass: "title" }, [_vm._v("ECR Tasks Manager")]),
             _vm._v(" "),
             _c("hr"),
             _vm._v(" "),

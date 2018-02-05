@@ -2,7 +2,7 @@
     <div class="columns">
         <div class="column is-half is-offset-one-quarter task-list">
             <div class="box">
-                <h2 class="title">My tasks</h2>
+                <h2 class="title">ECR Tasks Manager</h2>
                 <hr>
                 <div class="field has-addons">
                     <div class="control is-expanded">
