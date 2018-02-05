@@ -13335,6 +13335,15 @@ var render = function() {
                   attrs: { type: "text", placeholder: "New task" },
                   domProps: { value: _vm.task.body },
                   on: {
+                    keyup: function($event) {
+                      if (
+                        !("button" in $event) &&
+                        _vm._k($event.keyCode, "enter", 13, $event.key)
+                      ) {
+                        return null
+                      }
+                      _vm.createTask()
+                    },
                     input: function($event) {
                       if ($event.target.composing) {
                         return

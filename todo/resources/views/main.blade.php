@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar-brand">
-            <a class="navbar-item" href="{{ url('/test') }}">
+            <a class="navbar-item" href="{{ url('/') }}">
                 <img src="images/logo.png" alt="ToDo application" width="112" height="28">
             </a>
             <div class="navbar-item is-hidden-desktop">

@@ -6,7 +6,7 @@
                 <hr>
                 <div class="field has-addons">
                     <div class="control is-expanded">
-                        <input class="input" type="text" placeholder="New task" v-model="task.body">
+                        <input class="input" type="text" placeholder="New task" v-model="task.body" v-on:keyup.enter="createTask()" />
                     </div>
                     <div class="control">
                         <a class="button is-primary" @click="createTask()">
